@@ -1,0 +1,17 @@
+# --- Giao diện người dùng ---
+streamlit
+
+# --- Xử lý file đầu vào ---
+PyMuPDF     # Để đọc file .pdf (import fitz)
+python-docx # Để đọc file .docx
+
+# --- Xử lý tóm tắt văn bản (Trích xuất) ---
+gensim      # Dùng cho thuật toán tóm tắt TextRank
+
+# --- Xử lý tóm tắt văn bản (Trừu tượng - Nâng cao) ---
+transformers  # Thư viện của Hugging Face để sử dụng các mô hình AI
+torch         # Backend cho transformers (hoặc có thể dùng tensorflow)
+
+# --- Xử lý ngôn ngữ tự nhiên (Tùy chọn) ---
+nltk        # Dùng để tách câu, tách từ (có thể cần nếu không dùng spacy)
+scikit-learn  # Thư viện học máy hữu ích cho các tác vụ phụ
